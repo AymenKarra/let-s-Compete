@@ -22,8 +22,7 @@ int main()
    {s=s+pow(t[j],p);
    p=p+1;}
 
-
-   if((s/d)==a)
+  if((s%d==0))
       printf("%i",(s/d));
     else
       printf("-1");
